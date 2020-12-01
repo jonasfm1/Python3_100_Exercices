@@ -1,0 +1,12 @@
+times = ('sao paulo','fluminense','botafogo','palmeiras','portuguesa','bahia','gremio','internacioanl','santos',
+         'ponte-preta','coritiba','flamengo','chapeco')
+print('-=' * 15)
+print(f'Times do brasileirao: {times}')
+print('-=' * 15)
+print(f'5 Priemrios colocados: {times[0:5]}')
+print('-=' * 15)
+print(f'Os 4 Ultimos sao {times[-4:]}')
+print('-=' * 15)
+print(f'Times na ordem alfabetica: {sorted(times)}')
+print('-=' * 15)
+print(f'O chapeco esta na {times.index("Chapeco")+1}ª posição')
